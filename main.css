@@ -10,11 +10,11 @@ img {
 }
 
 body {
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+  background: url('assets/background.png') repeat center;
   font-family: 'Libre Baskerville', serif;
   font-size: 1.125rem;
   line-height: 1.5;
-  color: #444349;
+  color: hsla(209, 100%, 25%, 1);
 }
 
 .locations,
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .cover{
-  background: url('agoston__Anita_es_Zsolti_(35_of_42).jpg') no-repeat 70% center/cover;
+  background: url('assets/maci.jpg') no-repeat 70% center/cover;
  display: table;
   text-align: center;
   height: 100vh;
@@ -68,8 +68,8 @@ a:hover {
 }
 
 .byline {
-  background-color:hsla(100,0%,0%,.6);
-  color: hsla(0,0%,100%,.9);
+  background-color:hsla( 209, 100%, 70%, .5);
+  color:  hsla(209, 100%, 25%, 1);
   margin: 0 auto;
   padding: .625rem;
 
@@ -86,7 +86,7 @@ a:hover {
 .tagline::after {
   display: block;
   content: "";
-  background-color: #fff;
+  background-color: hsla(209, 100%, 25%, 1);
   height: 1px;
   width: 12.515625rem;
   margin: .5rem auto;
@@ -96,7 +96,7 @@ a:hover {
 
 font-size: 3.15rem;
 margin-bottom: 0;
-color: #d2ba87;
+color: hsla(209, 100%, 25%, 1);
 } 
 
  .date {
@@ -109,7 +109,7 @@ color: #d2ba87;
 .date::after {
   display: inline-block;
   content: "";
-  background-color: #fff;
+  background-color: hsla(209, 100%, 25%, 1);
   height: 1px;
   width: 1.5rem;
   vertical-align: middle;
@@ -138,10 +138,9 @@ color: #d2ba87;
 
 .program {
   width: 100vw;
-height: 100vh;
   text-align: left;
-  background: hsla(100,0%,0%,.6);
-  color: #d2ba87;
+  background: hsla( 209, 100%, 70%, .5);
+  color: hsla(209, 100%, 25%, 1);
   font-family: 'Muli', sans-serif;
 }
 
@@ -174,8 +173,8 @@ height: 100vh;
 }
 
 .faq {
-  background: hsla(100,0%,0%,.6);;
-  color: #d2ba87;
+  background: hsla( 209, 100%, 70%, .5);
+  color: hsla(209, 100%, 25%, 1);
   width: 100vw;
   text-align: center;
 }
@@ -189,13 +188,13 @@ height: 100vh;
   text-align: left;
 }
 
-.question-group::after {
+.qaa::after {
   content: "";
   display: block;
   height: .1875rem;
   width: 50vw;
   margin: 1.5rem auto;
-  background-color: #d2ba87;
+  background-color: hsla(209, 100%, 25%, 1);
 }
 
 .question {
@@ -207,42 +206,12 @@ height: 100vh;
   margin-bottom: 1.5rem;
 }
 
-/* =============================
-
-        FOOTER STYLES
-
-=============================*/
-
-footer {
-  height: 10vh;
-  width: 100vw;
-  background-color: #606060;
-  color: #fff;
-  font-family: 'Muli', sans-serif;
-  display: table;
-  text-align: center;
-  font-size: .875rem;
-}
-
-.footer-wrapper {
-  display: table-cell;
-  vertical-align: middle;
-  padding: .5rem 1rem;
-}
-
-footer p {
-  margin-bottom: 0;
-}
-
-footer small {
-  line-height: 1.5;
-}
 
 
 @media (min-width: 768px) {
 
   .cover {
-    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+    background: url('assets/maci.jpg') no-repeat center/cover;
   }
 
 }
@@ -274,8 +243,6 @@ footer small {
 
   .blurb {
     display: inline-block;
-    width: 30%;
-    padding: 1.5rem;
     margin: .5rem;
   }
 
@@ -298,7 +265,7 @@ footer small {
 
   .question-group {
     display: inline-block;
-    width: 30%;
+    width: 40%;
     vertical-align: top;
     padding: 1.5rem;
     margin: .5rem;
@@ -314,11 +281,5 @@ footer small {
 
 }
 
-@media (min-width: 768px) {
 
-  footer {
-    min-height: 7vh;
-  }
-
-}
     
