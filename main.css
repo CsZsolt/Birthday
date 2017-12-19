@@ -271,7 +271,7 @@ color: hsla(209, 100%, 25%, 1);
     margin: .5rem;
   }
 
-  .question-group::after {
+  .qaa::after {
     display: none;
   }
 
