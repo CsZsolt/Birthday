@@ -221,7 +221,7 @@ color: hsla(209, 100%, 25%, 1);
   .byline {
     padding: 1.25rem;
     border-radius: 4px;
-    width: 50%;
+    width: 100%;
   }
 
   .byline h1 {
