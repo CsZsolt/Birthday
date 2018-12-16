@@ -72,13 +72,13 @@ a:hover {
   /*display: table-cell;
   vertical-align: middle;*/
   position: absolute;
-   top:45%;
-   left: 0;
-   z-index: 1;
-   text-align: center;
-   width: 100%;
-   display: flex;
-  
+  top:40%;
+  left: 0;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  line-height: 1.2;
    
 
 }
@@ -118,7 +118,7 @@ margin-bottom: 0;
 } 
 
  .date {
-  font-size: .625rem;
+  font-size: .425rem;
   letter-spacing: .15rem;
   vertical-align: middle;
 } 
@@ -238,6 +238,7 @@ margin-bottom: 0;
 
   .wrapper {
     top:50%;
+    line-height: 1.5;
   }
 
 }
