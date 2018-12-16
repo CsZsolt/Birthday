@@ -52,27 +52,42 @@ a:hover {
 }
 
 .cover{
-  background: url('assets/maci.jpg') no-repeat 70% center/cover;
- display: table;
+  /*background: url('assets/maci.jpg') no-repeat 70% center/cover;
+ display: table;*/
+ 
   text-align: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  position:relative;
 
 }
 
+.cover video {
+	width:100%;
+	height:auto;
+	
+}
+
 .wrapper {
-  display: table-cell;
-  vertical-align: middle;
- 
-  
+  /*display: table-cell;
+  vertical-align: middle;*/
+  position: absolute;
+   top:50%;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    display: flex;
+   
+
 }
 
 .byline {
   background-color:hsla( 209, 100%, 70%, .5);
-  color:  hsla(209, 100%, 25%, 1);
+ /* color:  hsla(209, 100%, 25%, 1);*/
+  color: white;
   margin: 0 auto;
   padding: .625rem;
-
   
 }
 
@@ -86,7 +101,7 @@ a:hover {
 .tagline::after {
   display: block;
   content: "";
-  background-color: hsla(209, 100%, 25%, 1);
+  background-color: white; /*hsla(209, 100%, 25%, 1);*/
   height: 1px;
   width: 12.515625rem;
   margin: .5rem auto;
@@ -96,7 +111,8 @@ a:hover {
 
 font-size: 3.15rem;
 margin-bottom: 0;
-color: hsla(209, 100%, 25%, 1);
+   color: white;
+/*color: hsla(209, 100%, 25%, 1);*/
 } 
 
  .date {
@@ -109,7 +125,7 @@ color: hsla(209, 100%, 25%, 1);
 .date::after {
   display: inline-block;
   content: "";
-  background-color: hsla(209, 100%, 25%, 1);
+  background-color: white;/* hsla(209, 100%, 25%, 1);*/
   height: 1px;
   width: 1.5rem;
   vertical-align: middle;
@@ -211,7 +227,7 @@ color: hsla(209, 100%, 25%, 1);
 @media (min-width: 768px) {
 
   .cover {
-    background: url('assets/maci.jpg') no-repeat center/cover;
+  /*  background: url('assets/maci.jpg') no-repeat center/cover;*/
   }
 
 }
@@ -221,7 +237,7 @@ color: hsla(209, 100%, 25%, 1);
   .byline {
     padding: 1.25rem;
     border-radius: 4px;
-    width: 100%;
+    width: 50%;
   }
 
   .byline h1 {
@@ -265,13 +281,13 @@ color: hsla(209, 100%, 25%, 1);
 
   .question-group {
     display: inline-block;
-    width: 30%;
+    width: 40%;
     vertical-align: top;
     padding: 1.5rem;
     margin: .5rem;
   }
 
-  .qaa::after {
+  .question-group::after {
     display: none;
   }
 
