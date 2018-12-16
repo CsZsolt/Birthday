@@ -72,12 +72,13 @@ a:hover {
   /*display: table-cell;
   vertical-align: middle;*/
   position: absolute;
-   top:50%;
-    left: 0;
-    z-index: 1;
-    text-align: center;
-    width: 100%;
-    display: flex;
+   top:45%;
+   left: 0;
+   z-index: 1;
+   text-align: center;
+   width: 100%;
+   display: flex;
+  
    
 
 }
@@ -88,12 +89,13 @@ a:hover {
   color: white;
   margin: 0 auto;
   padding: .625rem;
+ 
   
 }
 
 
 .tagline {
-  font-size: 1.25rem;
+  font-size: .625rem;
   letter-spacing: .15rem;
  
 } 
@@ -103,20 +105,20 @@ a:hover {
   content: "";
   background-color: white; /*hsla(209, 100%, 25%, 1);*/
   height: 1px;
-  width: 12.515625rem;
+  width: 6.515625rem;
   margin: .5rem auto;
 }
 
  .headline {
 
-font-size: 3.15rem;
+font-size: 2.15rem;
 margin-bottom: 0;
    color: white;
 /*color: hsla(209, 100%, 25%, 1);*/
 } 
 
  .date {
-  font-size: 1.25rem;
+  font-size: .625rem;
   letter-spacing: .15rem;
   vertical-align: middle;
 } 
@@ -127,7 +129,7 @@ margin-bottom: 0;
   content: "";
   background-color: white;/* hsla(209, 100%, 25%, 1);*/
   height: 1px;
-  width: 1.5rem;
+  width: 1rem;
   vertical-align: middle;
   margin: 0 .5rem;
 }
@@ -234,6 +236,14 @@ margin-bottom: 0;
 
 @media (min-width: 768px) {
 
+  .wrapper {
+    top:50%;
+  }
+
+}
+
+@media (min-width: 768px) {
+
   .byline {
     padding: 1.25rem;
     border-radius: 4px;
@@ -246,11 +256,31 @@ margin-bottom: 0;
 
 }
 
+@media (min-width: 768px) {
+
+  .headline {
+    font-size: 3.15rem;
+  }
+
+}
 
 @media (min-width: 768px) {
 
   .tagline {
     text-transform: uppercase;
+    font-size: 1.25rem;
+  }
+  
+  .tagline::after{
+    width: 12.515625rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .date {
+    font-size: 1.25rem;
   }
 
 }
